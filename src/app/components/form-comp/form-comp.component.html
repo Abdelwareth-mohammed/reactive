@@ -1,0 +1,9 @@
+<form >
+<label for="name">Name: </label>
+<input id="name" type="text" [formControl]="name" (blur)="chageVal()"> 
+<br/><br/>
+<label for="mail">Email: </label>
+<input id="mail" type="email" [formControl]="name" (blur)="chageVal()"> 
+<br/><br/>
+<label for="phon">Phone: </label>
+<input id="phon" type="tel"  pattern="[0-9]{11}" [formControl]="name" (blur)="chageVal()"> </form>
